@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wordpress Theme</title>
+	<style type="text/css">
+		div.first{
+			
+			border:20px solid black;
+		}
+		.second{
+			font-variant: small-caps;
+			font-size: 50px;
+			font-style: normal;
+			font-weight: bold;
+		}
+		
+		div.outer{
+			height: 60px;
+			width: 60px;
+			border-radius: 50%;
+			-moz-border-radius:50%;
+			-webkit-border-radius:50%;
+			background-color: black;
+			position: relative;
+		}
+		  div.middle{
+			height:90%; /* of the outer */
+			width:90%; /* of the outer */
+			top: 5%; /* of the container */
+			left: 5%; /* of the container */
+			border-radius: 50%;
+			color: #0099cc;
+			background: white;
+			-moz-border-radius:50%;
+			-webkit-border-radius:50%;
+			
+			position: absolute;
+			}
+		div.inner{
+			height: 90%; /* of the middle */
+			width:90%; /* of the middle */
+			top: 5%;/* of the container */
+			left: 5%;/* of the container */
+			border-radius: 50%;
+			color: white;
+			background: black;
+			-moz-border-radius:50%;
+			-webkit-border-radius:50%;
+			
+			position: absolute;
+			}
+
+			div.outer-1{
+			height: 35px;
+			width: 35px;
+			border-radius: 50%;
+			-moz-border-radius:50%;
+			-webkit-border-radius:50%;
+			background-color: #0099cc;
+			position: relative;
+		}
+		  div.middle-1{
+			height:90%; /* of the outer */
+			width:90%; /* of the outer */
+			top: 5%; /* of the container */
+			left: 5%; /* of the container */
+			border-radius: 50%;
+			color: white;
+			background: white;
+			-moz-border-radius:50%;
+			-webkit-border-radius:50%;
+			
+			position: absolute;
+			}
+		div.inner-1{
+			height: 90%; /* of the middle */
+			width:90%; /* of the middle */
+			top: 5%;/* of the container */
+			left: 5%;/* of the container */
+			border-radius: 50%;
+			color: white;
+			background: #0099cc;
+			-moz-border-radius:50%;
+			-webkit-border-radius:50%;
+			
+			position: absolute;
+			}
+
+	  		.word{
+	  			margin-left: 75px;
+	  			display: inline-block;
+	  			color: #0099cc;
+	  		}
+
+		
+	</style>
+</head>
+<body>
+<div class="first"></div>
+<div class="second">
+	<div class="word" >
+		<div class="outer">
+			<div class="middle">
+				<div class="inner">W</div>	
+					<div class="word">
+						<span>Word<span style="color:black;">Press</span></span>
+			
+		</div>	</div></div>
+</div>	
+</div>
+
+<div>
+	<span>Upload the Theme <input type="file" name="Browse"></span>
+</div>
+<br>
+
+<div ><span>Or search in wordpress <input type="text" name="word" style="height:35px;" /> 
+	<div class="word" style="display:inline-block; margin-left:5px; margin-top:5px;" >
+		<div class="outer-1">
+			<div class="middle-1">
+				<div class="inner-1" style="font-size:30px;">W</div>	
+					
+			
+		</div>	</div></span>
+</div>
+
+</body>
+</html>
